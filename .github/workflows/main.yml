@@ -55,7 +55,7 @@ jobs:
         run: |
           aws ecs create-service \
             --cluster nginx-ECS \
-            --service-name nginx-service \
+            --service-name nginx-seva \
             --task-definition nginx-task \
             --desired-count 1 \
             --launch-type EC2 \
